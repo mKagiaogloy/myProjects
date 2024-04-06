@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url('../images/earth.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 600px;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to left bottom, rgba(236, 236, 236, 0.658), rgba(207, 207, 207, 0.801), rgba(148, 147, 147, 0.699), rgba(131, 129, 129, 0.671));
+    /* background-image: linear-gradient(to left bottom, #0ab0ad69, #04b8d865, #0291aa, #00a5c267, #0098d8, #545bd94f, #7a43c854, #830467, #e03a0763, #d8064c5e, #ad080260, #d8064c4d, #8d08294b, #cb0022, #a708084f, #db0e0e46); */
+    text-align: center;
+}
+
+.login-text {
+    color: rgba(0, 0, 0, 0.750);
+    font-weight: 600;
+    font-size: 46px;
+}
+
+.input-group [type="text"],
+.input-group [type="password"],
+.input-group [type="email"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px 10px;
+    width: 200px;
+    outline: none;
+    color: #107891;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.input-group input[type="text"]:focus,
+.input-group input[type="password"]:focus,
+.input-group input[type="email"]:focus {
+    width: 400px;
+    border-color: rgb(255, 255, 255);
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.btn {
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.644);
+    margin: 80px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    display: block;
+}
+
+.btn:hover {
+    background: rgba(4, 248, 25, 0.589);
+}
+
+.login-register-text {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    /* font-weight: 600; */
+}
+
+.login-register-text a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(5, 66, 146);
+}
+
+.login-register-text a:hover {
+    text-decoration: underline;
+    color: #e9e9e9;
+    transform: scale(1.5);
+    transition: 0.29s ease-in;
+}
